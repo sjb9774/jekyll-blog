@@ -18,11 +18,19 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Webinize
+theme: texture
+texture:
+  style: purple
+  twitter: s_biston
+  github: sjb9774
+  title: Stephen Biston
+  tagline: Handsome Genius Developer
+
+title: Stephen Biston
 email: stephen.biston@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Stephen updated his description
-twitter_username: sjb9774
+twitter_username: s_biston
 github_username:  sjb9774
 
 # Build settings
