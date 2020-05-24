@@ -20,11 +20,13 @@
 
 theme: texture
 texture:
-  style: purple
-  twitter: s_biston
-  github: sjb9774
+  style: blue
   title: Stephen Biston
   tagline: Handsome Genius Developer
+  social_links:
+    twitter: s_biston
+    github: sjb9774
+
 
 title: Stephen Biston
 email: stephen.biston@gmail.com
