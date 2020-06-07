@@ -1,2 +1,3 @@
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://stage.deepdives.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://stage-blog.stephenbiston.com" # the base hostname & protocol for your site, e.g. http://example.com
+future: true
