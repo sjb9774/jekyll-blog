@@ -1,0 +1,66 @@
+---
+---
+@import "theme";// Textures
+
+.container {
+  max-width: 63% !important;
+}
+
+.texture-black {
+    background-image: url('/assets/textures/black.jpg');
+
+    h2 {
+        color: #999;
+    }
+}
+
+.texture-blue {
+    background-image: url('/assets/textures/blue.jpg');
+
+    h2 {
+        color: #ddd;
+    }
+
+    .social i:hover {
+        color: #eee;
+    }
+
+    .post-date {
+        color: #ccc;
+    }
+}
+
+.texture-red {
+    background-image: url('/assets/textures/red.jpg');
+}
+
+.texture-purple {
+    background-image: url('/assets/textures/purple.jpg');
+}
+
+.texture-green {
+    background-image: url('/assets/textures/green.jpg');
+
+    .post-date {
+        color: #ccc;
+    }
+}
+
+.texture-red,
+.texture-purple {
+    h2 {
+        color: #ccc;
+    }
+
+    .social i {
+        color: #ddd;
+
+        &:hover {
+            color: lighten(#ddd, 7%);
+        }
+    }
+
+    .post-date {
+        color: #ddd;
+    }
+}

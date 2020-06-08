@@ -40,7 +40,7 @@ Now that we have `pip` installed, let's set up a virtual environment where we
 can install our Python dependencies without worrying about other projects on the
 computer or that might be created later (for example, if you had another project
 that required an older version of Flask, using global environment would cause
-issues when we go to install the newest versino for this guide).
+issues when we go to install the newest version for this guide).
 {% highlight bash %}
 cd ~/path/to/my/desired/project/directory
 pip install virtualenv
@@ -77,7 +77,7 @@ $ python runserver.py
  * Debugger PIN: 111-111-111
 {% endhighlight %}
 
-At this point if you navigate to http://127.0.0.1:5000 you'll get a 404 error
+At this point if you navigate to [http://127.0.0.1:5000][localhost] you'll get a 404 error
 since we haven't set up anything in Flask to handle the homepage (and we won't,
 since this is an API) but that will at least confirm Flask is running correctly.
 
@@ -232,3 +232,4 @@ own web services!
 
 [rest-wiki]: https://en.wikipedia.org/wiki/Representational_state_transfer#Architectural_constraints
 [pip-install]: https://pip.pypa.io/en/stable/installing/
+[localhost]: http://127.0.0.1:5000
