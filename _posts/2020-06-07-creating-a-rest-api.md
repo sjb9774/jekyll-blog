@@ -125,10 +125,12 @@ easy consumption by the integrating program. Don't worry too much about the
 `jsonify` function, it's similar to the Python `json.dumps` method but also sets
 the correct HTTP headers that should be sent with a JSON response.
 
+{% aside %}
 It's okay if you're not familiar
 with the `@app.route` line of code above the signature for `api_endpoint`.
 This is a shorthand for a Python decorator; suffice to say that this is how
 Flask registers our function to handle the endpoint we defined.
+{% endaside %}
 
 Now, before our `runserver.py` script can serve up this new endpoint, it has to
 be made aware of it so the decorator can be run and work its magic on our Flask
