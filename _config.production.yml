@@ -1,2 +1,3 @@
 url: "https://blog.stephenbiston.com" # the base hostname & protocol for your site, e.g. http://example.com
 future: false
+google_analytics: "UA-168887565-1"

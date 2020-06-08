@@ -2,3 +2,4 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://stage-blog.stephenbiston.com" # the base hostname & protocol for your site, e.g. http://example.com
 future: true
 show_drafts: true
+google_analytics: "UA-168887565-2"
