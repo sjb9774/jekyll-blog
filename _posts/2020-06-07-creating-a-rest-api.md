@@ -2,7 +2,8 @@
 layout: post
 title:  "Creating your own REST API"
 date:   2020-06-07 5:00:00 -0600
-categories: api rest python flask
+tags: api rest python flask
+categories: getting-started
 ---
 
 APIs have become increasingly popular ways to interact with third-party software

@@ -26,7 +26,7 @@ texture:
   social_links:
     twitter: s_biston
     github: sjb9774
-
+  showNav: true
 
 title: Stephen Biston
 email: stephen.biston@gmail.com
