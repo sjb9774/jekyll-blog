@@ -34,6 +34,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Stephen updated his description
 twitter_username: s_biston
 github_username:  sjb9774
+show_excerpts: true
 
 # Build settings
 plugins:
